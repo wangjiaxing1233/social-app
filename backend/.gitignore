@@ -1,0 +1,4 @@
+conf/deploy.yml
+.DS_Store
+*.exe
+/networkai

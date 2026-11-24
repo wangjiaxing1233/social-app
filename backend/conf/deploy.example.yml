@@ -1,0 +1,16 @@
+elasticsearch:
+  address: "https://YOUR_ES_HOST:9200"
+  username: "YOUR_ES_USERNAME"
+  password: "YOUR_ES_PASSWORD"
+
+gcs:
+  bucket: "YOUR_GCS_BUCKET"
+
+token:
+  secret: "YOUR_JWT_SIGNING_SECRET"
+
+vertex:
+  project: "YOUR_GCP_PROJECT_ID"
+  location: "us-central1"
+  model: "text-embedding-005"
+  dimensions: 768
